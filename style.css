@@ -11,7 +11,7 @@
     
     border-radius:83% 17% 83% 17% / 25% 72% 28% 75%;
     background-color: pink;
-    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation: bounceIn; /* referring directly to the animation's @keyframe declaration */
     animation-duration: 1s; /* don't forget to set a duration! */
   
 }
@@ -73,6 +73,7 @@
 }
 
 .services-h1 {
+    z-index: 0;
     margin: 0;
     padding: 0;
     display: inline-block;
@@ -85,7 +86,7 @@
    font-weight: 200;
    color: #000;
    position: relative;
-   border-bottom: 2px solid #ff14eb;
+   /* border-bottom: 2px solid #ff14eb; */
    /* justify-content: space-around; */
 }
 
