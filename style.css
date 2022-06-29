@@ -12,7 +12,7 @@
     border-radius:83% 17% 83% 17% / 25% 72% 28% 75%;
     background-color: pink;
     animation: bounceIn; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 1s; /* don't forget to set a duration! */
+    animation-duration: 2s; /* don't forget to set a duration! */
   
 }
 
@@ -85,7 +85,7 @@
    text-transform: uppercase;
    font-weight: 200;
    color: #000;
-   position: relative;
+   /* position: relative; */
    /* border-bottom: 2px solid #ff14eb; */
    /* justify-content: space-around; */
 }
