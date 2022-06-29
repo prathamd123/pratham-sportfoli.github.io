@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+.border-img0001{
+    
+    border-radius:83% 17% 83% 17% / 25% 72% 28% 75%;
+    background-color: pink;
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s; /* don't forget to set a duration! */
+  
+}
+
+.nav-components {
+         font-size: larger;
+         cursor: pointer;
+        /* align-items: center; */
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 20px;
+        color: #fff;
+        position: relative;
+        /* width: 60%; */
+        /* background-color: yellow; */
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+}
+
+.nav-components::before{
+    content: "";
+    position: absolute;
+    top: 110%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    border-bottom: 2px solid #ff14eb;
+    transition: .4s all linear;
+}
+.nav-components:hover::before{
+    width: 100%;
+} 
+
+.quote {
+
+    font-weight: 700;
+
+}
+
+.section-1 {
+    margin-top: 0px;
+    margin-bottom: -50px;
+    z-index: 1;
+}
+
+.div-c { 
+    margin-top: 90px;
+}
+
+.section-2 {
+    /* border-radius: 0% 100% 0% 100% / 100% 100% 0% 0%   ; */
+    /* background-color: indigo; */
+    /* color: #fff; */
+    margin-top: -50px;
+    margin-bottom: -150px;
+
+}
+
+.services-h1 {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-weight: 200;
+   color: #000;
+   position: relative;
+   border-bottom: 2px solid #ff14eb;
+   /* justify-content: space-around; */
+}
+
+.header-section {
+    color: #fff;
+    background-color: #000;
+    display: flex;
+    width: 100%;
+    position: fixed;
+}
+.pratham-name{
+    color: #fff;
+}
+.links {
+    color: #fff;
+    font-size: 20px;
+    background: rgb(61, 54, 54);
+}
+
+.links:hover {
+    color: black;
+    background-color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+    .services-h1 {
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+        display:flex ;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+       text-decoration: none;
+       text-transform: uppercase;
+       font-weight: 200;
+       color: #000;
+       position: relative;
+       border-bottom: 2px solid #ff14eb;
+       /* justify-content: space-around; */
+    }
+
+    .border-img0001{
+        margin-top: 30px;
+        border-radius:83% 17% 83% 17% / 25% 72% 28% 75%;
+        background-color: pink;
+      
+    }
+    
+  }
+
+.section-3 {
+    z-index: 0;
+    margin: 0px;
+      /* border-radius: 16% 84% 18% 82% / 20% 77% 23% 80% ; */
+      /* background-color: #ff14eb; */
+      margin-bottom: -100px;
+}
+
+.footer-c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
